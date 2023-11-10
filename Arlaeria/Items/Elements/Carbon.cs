@@ -26,8 +26,8 @@ namespace Arlaeria.Items.Elements
 
         public override void AddRecipes()
         {
-            Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(null);
+            Recipe recipe = CreateRecipe(1);
+            recipe.AddIngredient(ItemID.Seashell, 5);
             recipe.AddTile<Elliotic_Condenser_TILE>();
             recipe.Register();
         }

@@ -30,6 +30,11 @@ namespace Arlaeria.Items.Elements
             recipe.AddIngredient(ItemID.FallenStar, 1);
             recipe.AddTile<Elliotic_Condenser_TILE>();
             recipe.Register();
+
+            Recipe recipe2 = CreateRecipe(2);
+            recipe2.AddIngredient(ItemID.BottledWater, 1);
+            recipe2.AddTile<Elliotic_Condenser_TILE>();
+            recipe2.Register();
         }
 
     }

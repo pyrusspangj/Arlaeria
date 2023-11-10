@@ -75,6 +75,26 @@ Items: {
 		DisplayName: Oxygen
 		Tooltip: 8 : 15.9994
 	}
+
+	Charged_Ectrill: {
+		DisplayName: Charged Ectrill
+		Tooltip: Even electricutes rock!
+	}
+
+	Charged_Hamaxe: {
+		DisplayName: Charged Hamaxe
+		Tooltip: Makes your grip tingle
+	}
+
+	Charged_Helmet: {
+		DisplayName: Charged Helmet
+		Tooltip: Colors look a little funky through here...
+	}
+
+	Catered_Soil: {
+		DisplayName: Catered Soil
+		Tooltip: A dense, nutritionally-packed block of soil! Perfect for harvesting
+	}
 }
 
 Tiles: {
@@ -82,6 +102,7 @@ Tiles: {
 	ArlaeriaCrafting.MapEntry: Arlaeria Crafting
 	Hismark_TILE.MapEntry: Hismark_ T I L E
 	Charged_Ore_TILE.MapEntry: Charged_ Ore_ T I L E
+	Catered_Soil_TILE.MapEntry: Catered_ Soil_ T I L E
 }
 
 Projectiles.Garner_Proj.DisplayName: Garner_ Proj

@@ -26,8 +26,8 @@ namespace Arlaeria.Items.Elements
 
         public override void AddRecipes()
         {
-            Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(null);
+            Recipe recipe = CreateRecipe(1);
+            recipe.AddIngredient<Placeables.Catered_Soil>(3);
             recipe.AddTile<Elliotic_Condenser_TILE>();
             recipe.Register();
         }
