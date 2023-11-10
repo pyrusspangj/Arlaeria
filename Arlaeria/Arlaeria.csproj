@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>Arlaeria</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AdditionalFiles Remove="Items\Elements\Aluminum.png" />
+    <AdditionalFiles Remove="Items\Elements\Argon.png" />
+    <AdditionalFiles Remove="Items\Elements\Astatine.png" />
+    <AdditionalFiles Remove="Items\Elements\Beryllium.png" />
+    <AdditionalFiles Remove="Items\Elements\Bismuth.png" />
+    <AdditionalFiles Remove="Items\Elements\Boron.png" />
+    <AdditionalFiles Remove="Items\Elements\Bromine.png" />
+    <AdditionalFiles Remove="Items\Elements\Calcium.png" />
+    <AdditionalFiles Remove="Items\Elements\Carbon.png" />
+    <AdditionalFiles Remove="Items\Elements\Chlorine.png" />
+    <AdditionalFiles Remove="Items\Elements\Chromium.png" />
+    <AdditionalFiles Remove="Items\Elements\Cobalt.png" />
+    <AdditionalFiles Remove="Items\Elements\Copper.png" />
+    <AdditionalFiles Remove="Items\Elements\Flourine.png" />
+    <AdditionalFiles Remove="Items\Elements\Gallium.png" />
+    <AdditionalFiles Remove="Items\Elements\Iodine.png" />
+    <AdditionalFiles Remove="Items\Elements\Iridium.png" />
+    <AdditionalFiles Remove="Items\Elements\Iron.png" />
+    <AdditionalFiles Remove="Items\Elements\Lead.png" />
+    <AdditionalFiles Remove="Items\Elements\Lithium.png" />
+    <AdditionalFiles Remove="Items\Elements\Magnesium.png" />
+    <AdditionalFiles Remove="Items\Elements\Manganese.png" />
+    <AdditionalFiles Remove="Items\Elements\Mercury.png" />
+    <AdditionalFiles Remove="Items\Elements\Neon.png" />
+    <AdditionalFiles Remove="Items\Elements\Nickel.png" />
+    <AdditionalFiles Remove="Items\Elements\Nitrogen.png" />
+    <AdditionalFiles Remove="Items\Elements\Osmium.png" />
+    <AdditionalFiles Remove="Items\Elements\Oxygen.png" />
+    <AdditionalFiles Remove="Items\Elements\Phosphorus.png" />
+    <AdditionalFiles Remove="Items\Elements\Potassium.png" />
+    <AdditionalFiles Remove="Items\Elements\Radium.png" />
+    <AdditionalFiles Remove="Items\Elements\Silicon.png" />
+    <AdditionalFiles Remove="Items\Elements\Sodium.png" />
+    <AdditionalFiles Remove="Items\Elements\Sulfur.png" />
+    <AdditionalFiles Remove="Items\Elements\Tin.png" />
+    <AdditionalFiles Remove="Items\Elements\Titanium.png" />
+    <AdditionalFiles Remove="Items\Elements\Tungsten.png" />
+    <AdditionalFiles Remove="Items\Elements\Uranium.png" />
+    <AdditionalFiles Remove="Items\Elements\Yttrium.png" />
+    <AdditionalFiles Remove="Items\Elements\Zinc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Items\Arlaeic_Energy.png" />
+    <None Remove="Items\Charged_Dust.png" />
+    <None Remove="Items\Charged_Ore.png" />
+    <None Remove="Items\Elements\Arsenic.png" />
+    <None Remove="Items\Elements\Caesium.png" />
+    <None Remove="Items\Elements\Gold.png" />
+    <None Remove="Items\Elements\Helium.png" />
+    <None Remove="Items\Elements\Hydrogen.png" />
+    <None Remove="Items\Elements\Platinum.png" />
+    <None Remove="Items\Elements\Silver.png" />
+    <None Remove="Items\Garner.png" />
+    <None Remove="Items\Hismark.png" />
+    <None Remove="Items\Molten_Yndicate.png" />
+    <None Remove="Items\Tiles\Charged_Ore_TILE.png" />
+    <None Remove="Items\Tiles\Elliotic_Condenser_TILE.png" />
+    <None Remove="Items\Tiles\Hismark_TILE.png" />
+    <None Remove="Items\Unstable_Yndicate.png" />
+    <None Remove="Projectiles\Garner_Proj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+</Project>

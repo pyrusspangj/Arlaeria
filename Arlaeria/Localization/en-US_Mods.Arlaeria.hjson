@@ -1,0 +1,87 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	Arla: {
+		DisplayName: Fat Iron Hammer
+		Tooltip: It's a hammer, a BIGGG hammer, made from LOTS of iron!
+	}
+
+	Elliotic_Condenser: {
+		DisplayName: Elliotic Condenser
+		Tooltip: Harness the elements
+	}
+
+	ArlaeriaCrafting: {
+		DisplayName: Arlaeria Crafting
+		Tooltip: ""
+	}
+
+	Hismark: {
+		DisplayName: Hismark
+		Tooltip: A strange flower not native to this land
+	}
+
+	Arlaeic_Energy: {
+		DisplayName: Arlaeic Energy
+		Tooltip: It's simultaneously both warm and cold
+	}
+
+	Charged_Ore: {
+		DisplayName: Charged Ore
+		Tooltip: Static to the touch
+	}
+
+	Charged_Dust: {
+		DisplayName: Charged Dust
+		Tooltip: A static-like powder
+	}
+
+	Garner: {
+		DisplayName: Garner
+		Tooltip: Somehow it garners both intense power and beauty
+	}
+
+	Unstable_Yndicate: {
+		DisplayName: Unstable Yndicate
+		Tooltip: The essence of a higher being, but it seems as though they are no longer with us
+	}
+
+	Molten_Yndicate: {
+		DisplayName: Molten Yndicate
+		Tooltip: It's burning at a negative temperature
+	}
+
+	Carbon: {
+		DisplayName: Carbon
+		Tooltip: 6 : 12.011
+	}
+
+	Helium: {
+		DisplayName: Helium
+		Tooltip: 2 : 4.0026
+	}
+
+	Hydrogen: {
+		DisplayName: Hydrogen
+		Tooltip: 1 : 1.0078
+	}
+
+	Nitrogen: {
+		DisplayName: Nitrogen
+		Tooltip: 7 : 14.007
+	}
+
+	Oxygen: {
+		DisplayName: Oxygen
+		Tooltip: 8 : 15.9994
+	}
+}
+
+Tiles: {
+	Elliotic_Condenser_TILE.MapEntry: Elliotic Condenser
+	ArlaeriaCrafting.MapEntry: Arlaeria Crafting
+	Hismark_TILE.MapEntry: Hismark_ T I L E
+	Charged_Ore_TILE.MapEntry: Charged_ Ore_ T I L E
+}
+
+Projectiles.Garner_Proj.DisplayName: Garner_ Proj
